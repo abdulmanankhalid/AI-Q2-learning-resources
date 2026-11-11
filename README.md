@@ -1,29 +1,47 @@
-https://piaic-aic.slack.com/archives/CHQ9UCUUQ/p1609919354002700
+# AI-Q2 Learning Resources (PIAIC)
 
+> Forked from [piaic-official/AI-Q2-learning-resources](https://github.com/piaic-official/AI-Q2-learning-resources). The material was created by the PIAIC AI teaching team. I keep this fork as a reference for the course. My own solutions are in [my_codes_PIAIC](https://github.com/abdulmanankhalid/my_codes_PIAIC).
 
-#Important Information for PIAIC AI-Q2. 
-our Announcement Chanel is #announcements. ( you can not reply this channel). Please pin this channel for our future annoucement related to AI -Q2
+The official learning and practice material for **Quarter 2 of the PIAIC Artificial Intelligence program**. It covers NumPy, Pandas and deep learning with TensorFlow/Keras.
 
-*Our Support Channel of AI-Q2 is #ai_q2_batch4to35 
-You can ask question here. 
-Warning: Please avoid responding any question until you are fully aware about it. and Please behave with other students specially ladies. 
-You might be blocked for any misuse or in case of any complain from any source, PIAIC management may take any legal action Please do not discuss students related thing in this channel, just ask your question and wait for the official reply. 
-For students discussion there is another channel exists. which is #random Note: 
+## Contents
 
-Please visit the #ai_q2_batch4to35 channel regularly (specially in late evening). and if you missed to keep it watching , please please please, scroll up and read messages before asking a question. most of the time, question has been answered but asked again and again. 
-*AI-Teaching Team 
-Only following people are responsible for official response/reply to your question. 
-If you have still issue or concern, please direct message (DM) or "Mention" them ( by typing their name with @) and wait for their reply (Mostly teaching team reply in evening). 
+| Path | What's inside |
+| --- | --- |
+| [`PIAIC-AI-Q2-Syllabus.pdf`](PIAIC-AI-Q2-Syllabus.pdf) | The full Quarter 2 syllabus |
+| [`NumpyAssignments/`](NumpyAssignments) | NumPy Assignment 1 (fundamentals) and Assignment 2 (basics to advanced), as notebooks and `.py` files, with submission instructions |
+| [`PandasAssignments/`](PandasAssignments) | Placeholder for Pandas assignments (empty for now; see `Pandas_Learning_Resources.md`) |
+| [`Pandas_Learning_Resources.md`](Pandas_Learning_Resources.md) | Links to Pandas teaching notebooks: Series, DataFrames, data analysis parts 1–4, and the sample data files they use |
+| [`DLAssignments/`](DLAssignments) | Five deep learning mini-projects (see below) |
+| [`PracticeCodes/`](PracticeCodes) | Small NumPy practice scripts (`numpyarray.py`, `numpyImage.py`) |
+| [`LearningResources/`](LearningResources) | Placeholder for extra learning material (empty for now) |
+| [`datasets/`](datasets) | Google Play Store apps and user reviews CSVs for data analysis practice |
 
-(Head of AI Team) @Inam ul Haq 
-(Class Teacher) @Nasir Hussain 
-(Class Teacher) @A.I Teacher Qasim 
-(Class Teacher) @Anees Ahmed
+## Deep Learning Assignments
 
-(Support Teacher) @Asadullah Noor 
-(Support Teacher) @Wajahat Ali Naqvi 
-(Support Teacher) @Mansoor Hussain 
-(Support Teacher) @Umair Shehzad 
-(Support Teacher) @komal aftab 
-(Support Teacher) @Ramsha Azeemi
+The `DLAssignments/` folder has 5 mini-projects:
 
+| Notebook | Task |
+| --- | --- |
+| `Car Price Prediction assignment.ipynb` | Regression |
+| `Concrete Strength Assignment.ipynb` | Regression |
+| `Credit Card Fraud Detection assignment.ipynb` | Binary classification |
+| `Ionosphere Assignment.ipynb` | Binary classification |
+| `Flowers_Recognition.ipynb` | Multiclass image classification |
+
+## Tech Stack
+
+Python · Jupyter Notebook · NumPy · Pandas · Matplotlib · TensorFlow / Keras
+
+## Getting Started
+
+```bash
+git clone https://github.com/abdulmanankhalid/AI-Q2-learning-resources.git
+cd AI-Q2-learning-resources
+pip install numpy pandas matplotlib tensorflow jupyter
+jupyter notebook
+```
+
+## Credits
+
+All course material belongs to [PIAIC](https://www.piaic.org/) (Presidential Initiative for Artificial Intelligence & Computing) and its AI teaching team. Original repository: [piaic-official/AI-Q2-learning-resources](https://github.com/piaic-official/AI-Q2-learning-resources).
